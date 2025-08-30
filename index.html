@@ -16,13 +16,20 @@
 
 <title>Predicting Hourly Electricity Demand in Ontario</title>
 
-  <p>
-    Studying historical events is essential for making well-informed strategic decisions about the future. 
-    Time series analysis provides organizations with a powerful means of anticipating and preparing for upcoming challenges. 
-    The Canada Energy Regulator (CER) is responsible for ensuring that energy production meets demand requirements, a task that depends on the availability of accurate demand forecasts. 
-    To support this objective, developing a reliable model of hourly electricity demand is crucial. 
-    In this R project, I apply Gated Recurrent Unit (GRU) networks to forecast hourly residential electricity consumption in Ontario, using publicly available hourly and annual demand data.
-  </p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Find the first heading (h1) on the page
+    var title = document.querySelector('h1');
+    if (title) {
+        var p = document.createElement('p');
+        p.textContent = "Studying historical events is essential for making well-informed strategic decisions about the future. Time series analysis provides organizations with a powerful means of anticipating and preparing for upcoming challenges. The Canada Energy Regulator (CER) is responsible for ensuring that energy production meets demand requirements, a task that depends on the availability of accurate demand forecasts. To support this objective, developing a reliable model of hourly electricity demand is crucial. In this R project, I apply Gated Recurrent Unit (GRU) networks to forecast hourly residential electricity consumption in Ontario, using publicly available hourly and annual demand data.";
+
+        // Insert the paragraph right after the title
+        title.parentNode.insertBefore(p, title.nextSibling);
+    }
+});
+</script>
+
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
